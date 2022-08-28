@@ -7,7 +7,7 @@ intents.message_content = True
 ids = []
 bot = commands.Bot(command_prefix='.kako.', intents=intents)
 
-f = open(r"C:\Users\Shaha\Desktop\discord ids.txt")
+f = open(r"discord ids.txt")
 
 for line in f:
     strippedLine = line.strip()
